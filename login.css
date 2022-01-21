@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+main{
+    min-height: 100vh;
+    background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.glass{
+    min-height: 80vh;
+    width: 60%;
+    background: white;
+    background:linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 2;
+}
+.circle1,.circle2{
+    background: white;
+    background:linear-gradient(to right bottom, rgba(255,255,255,0.9),rgba(255,255,255,0.1));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    backdrop-filter:blur(2rem);
+    border-radius: 50%;
+}
+.circle1{
+    top: 5%;
+    right: 15%;
+}  
+ .circle2{
+    bottom:5%;
+    left: 10%;
+}
+#myForm{
+   position: relative;
+   left: 30%;
+   margin-top: 20%;
+}
+input{
+    width: 40%;
+    height: 25%;
+    padding: 15px;
+    margin: 15px;
+    outline: none;
+
+}
+#btn{
+    height: 30px;
+    width: 100px;
+    background: #65dfc9;
+    color: black;
+    outline: none;
+    position: relative;
+    left: 15%;
+    margin-top: 25px;
+    border-radius: 2rem;
+    padding: 10px;
+}

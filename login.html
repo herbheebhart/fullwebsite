@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <main>
+        <section class="glass">
+            <form action="" name="login" id="myForm" onsubmit="return myFunction()">
+                <div>
+                <input type="text" placeholder="Enter UserName" id="name" name="uName" >
+                <p id="txt-1"></p>
+            </div>
+            <div>
+                <input type="email" placeholder="Email address" id="email" name="email">
+                <p id="txt-2"></p></div>
+                <div>
+                <input type="password" placeholder="passWord" id="pass" name="pass">
+                <p id="txt-3 "></p> </div>
+               <input type="button" value="login" name="submit" onclick="myFunction()" id="btn">
+           </form>
+        </section>
+    </main>
+     <div class="circle1"></div>
+    <div class="circle2"></div>
+    <script src="script.js"></script>
+</body>
+</html>
